@@ -1,0 +1,25 @@
+[package]
+name = "mkr-cli"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "MKR - SPARK 26 command-line application"
+
+[[bin]]
+name = "MKR-SPARK-26"
+path = "src/main.rs"
+
+[dependencies]
+mkr-core = { path = "../mkr-core" }
+mkr-memory = { path = "../mkr-memory" }
+mkr-knowledge = { path = "../mkr-knowledge" }
+mkr-search = { path = "../mkr-search" }
+mkr-verification = { path = "../mkr-verification" }
+mkr-learning = { path = "../mkr-learning" }
+spark-tensor = { path = "../spark-tensor" }
+spark-byte-engine = { path = "../spark-byte-engine" }
+spark-neural = { path = "../spark-neural" }
+spark-optimizer = { path = "../spark-optimizer" }
+spark-training = { path = "../spark-training" }
+spark-inference = { path = "../spark-inference" }
+rayon = { workspace = true }

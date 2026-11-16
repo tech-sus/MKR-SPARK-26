@@ -1,0 +1,29 @@
+Rust is a systems programming language that focuses on safety, speed and concurrency. It prevents many classes of memory errors at compile time without needing a garbage collector.
+
+A byte is a unit of digital information made of eight bits. Text can be stored as a sequence of bytes, and UTF-8 is an encoding that represents every Unicode character with one to four bytes.
+
+The Nile is one of the longest rivers in the world. It flows north through eleven countries and ends in a large delta on the coast of the Mediterranean Sea in Egypt.
+
+Photosynthesis is the process plants use to turn sunlight, water and carbon dioxide into sugar and oxygen. It takes place mostly in the leaves, inside small structures called chloroplasts.
+
+A neural network is a computing model made of layers of simple units. Each unit multiplies its inputs by learned weights and passes the result through a non-linear function. Training adjusts the weights to reduce an error measure.
+
+Water boils at one hundred degrees Celsius at sea level. At higher altitudes the air pressure is lower, so water boils at a lower temperature.
+
+The Moon orbits the Earth about once every twenty seven days. Its gravity pulls on the oceans and is the main cause of the tides.
+
+A database is an organised collection of data. SQLite is a small database engine that stores everything in a single file and needs no separate server process.
+
+The internet is a global network of computers that exchange data using shared protocols. A web browser requests pages from servers and displays them to the user.
+
+Learning to program is easier when you build small projects. Write a little code, run it, read the error messages carefully, and fix one problem at a time.
+
+Mathematics describes patterns and relationships. A prime number is a whole number greater than one that has no divisors other than one and itself. The number seven is prime, but the number nine is not.
+
+The human heart pumps blood through the body. It beats about seventy times each minute when a person is resting, and it never stops working during a whole lifetime.
+
+Libraries keep books and make them available to everyone. A good library is quiet, well organised and open to people of every age who want to learn something new.
+
+Good software is simple to read, simple to test and simple to change. Clear names, short functions and honest comments help the next person who opens the code.
+
+The sun is a star at the centre of our solar system. Light from the sun takes about eight minutes to reach the Earth, and without it there would be no life on our planet.

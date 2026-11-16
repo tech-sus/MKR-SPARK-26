@@ -1,0 +1,7 @@
+target/
+dist/
+data/
+checkpoints/*
+models/*
+!*/.gitkeep
+*.tmp

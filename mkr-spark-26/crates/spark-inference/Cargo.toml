@@ -1,0 +1,12 @@
+[package]
+name = "spark-inference"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "SPARK CPU inference engine: O(1)-state incremental decoding, int8 quantization, sampling"
+
+[dependencies]
+spark-tensor = { path = "../spark-tensor" }
+spark-byte-engine = { path = "../spark-byte-engine" }
+spark-neural = { path = "../spark-neural" }
+rayon = { workspace = true }

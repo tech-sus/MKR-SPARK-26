@@ -1,0 +1,20 @@
+[workspace]
+resolver = "2"
+members = ["crates/spark-tensor", "crates/spark-byte-engine", "crates/spark-optimizer", "crates/spark-neural", "crates/spark-training", "crates/spark-inference", "crates/mkr-core", "crates/mkr-memory", "crates/mkr-knowledge", "crates/mkr-search", "crates/mkr-verification", "crates/mkr-learning", "crates/mkr-cli"]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+
+[workspace.dependencies]
+rayon = "1"
+
+[profile.release]
+opt-level = 3
+lto = "fat"
+codegen-units = 1
+strip = true
+
+[profile.test]
+opt-level = 2

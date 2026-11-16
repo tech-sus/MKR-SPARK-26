@@ -1,0 +1,9 @@
+[package]
+name = "mkr-verification"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "MKR evidence verification: cross-source agreement, contradictions, freshness, prompt-injection filtering"
+
+[dependencies]
+mkr-core = { path = "../mkr-core" }

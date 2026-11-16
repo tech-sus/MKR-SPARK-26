@@ -1,0 +1,12 @@
+[package]
+name = "spark-training"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "SPARK training engine: from-scratch CPU training, validation, checkpoints, resume, overfitting detection"
+
+[dependencies]
+spark-tensor = { path = "../spark-tensor" }
+spark-byte-engine = { path = "../spark-byte-engine" }
+spark-neural = { path = "../spark-neural" }
+spark-optimizer = { path = "../spark-optimizer" }

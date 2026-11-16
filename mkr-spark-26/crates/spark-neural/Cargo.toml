@@ -1,0 +1,10 @@
+[package]
+name = "spark-neural"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "SPARK Neural Architecture (SNA): byte-level hybrid of gated linear recurrence, sliding-window attention and SwiGLU"
+
+[dependencies]
+spark-tensor = { path = "../spark-tensor" }
+spark-byte-engine = { path = "../spark-byte-engine" }

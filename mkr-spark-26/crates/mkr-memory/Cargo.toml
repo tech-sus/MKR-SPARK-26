@@ -1,0 +1,10 @@
+[package]
+name = "mkr-memory"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "MKR local persistent memory (SQLite): conversations, user-approved memories, preferences, search history"
+
+[dependencies]
+mkr-core = { path = "../mkr-core" }
+rusqlite = { version = "0.32", features = ["bundled"] }

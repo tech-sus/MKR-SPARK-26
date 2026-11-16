@@ -1,0 +1,9 @@
+[package]
+name = "spark-byte-engine"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Native byte-level text processing for SPARK: UTF-8 safe encoding, streaming decode, corpus prep and batching"
+
+[dependencies]
+spark-tensor = { path = "../spark-tensor" }

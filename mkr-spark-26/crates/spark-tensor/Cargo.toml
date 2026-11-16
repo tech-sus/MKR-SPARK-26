@@ -1,0 +1,9 @@
+[package]
+name = "spark-tensor"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "SPARK tensor engine: CPU matmul and tape-based reverse-mode autograd"
+
+[dependencies]
+rayon = { workspace = true }

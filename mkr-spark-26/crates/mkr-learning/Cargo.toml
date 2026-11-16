@@ -1,0 +1,15 @@
+[package]
+name = "mkr-learning"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "MKR controlled learning: verified-knowledge ingestion, user-approved memory proposals, guarded neural fine-tuning with rollback"
+
+[dependencies]
+mkr-core = { path = "../mkr-core" }
+mkr-knowledge = { path = "../mkr-knowledge" }
+mkr-verification = { path = "../mkr-verification" }
+spark-byte-engine = { path = "../spark-byte-engine" }
+spark-neural = { path = "../spark-neural" }
+spark-training = { path = "../spark-training" }
+rusqlite = { version = "0.32", features = ["bundled"] }

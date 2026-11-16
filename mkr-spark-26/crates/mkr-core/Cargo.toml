@@ -1,0 +1,9 @@
+[package]
+name = "mkr-core"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "MKR shared types: config, errors, text normalisation (Arabic/English), dates, SQLite helper"
+
+[dependencies]
+rusqlite = { version = "0.32", features = ["bundled"] }

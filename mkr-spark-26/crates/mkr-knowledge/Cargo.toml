@@ -1,0 +1,11 @@
+[package]
+name = "mkr-knowledge"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "MKR verified knowledge base: facts with sources, confidence, expiry and user correction"
+
+[dependencies]
+mkr-core = { path = "../mkr-core" }
+mkr-memory = { path = "../mkr-memory" }
+rusqlite = { version = "0.32", features = ["bundled"] }

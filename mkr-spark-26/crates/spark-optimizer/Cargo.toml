@@ -1,0 +1,10 @@
+[package]
+name = "spark-optimizer"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "AdamW, learning-rate schedules and gradient clipping for SPARK"
+
+[dependencies]
+spark-tensor = { path = "../spark-tensor" }
+rayon = { workspace = true }
